@@ -1,0 +1,72 @@
+span{
+   color: #FA3A10;
+}
+button{
+   background-color: #FA3A10;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) { 
+   .imgg-1{
+      display: none;
+   }
+}
+
+@media (max-width: 1200px) { 
+   .cartt-1{
+      display: block;
+
+   }
+   .imgg-1{
+      display: none;
+   }
+
+}
+@media (max-width: 1150px){
+   .cartt-1{
+      display: none;
+   }
+}
+
+@media (max-width: 991px) {
+ 
+   .cartt-1{
+      display: none;
+   }
+   .imgg-1{
+      display: block;
+   }
+}
+@media (max-width: 767px) { 
+   .imgg-1{
+      display: block;
+   }
+   .texx-wrap{
+      flex-wrap: wrap;
+   }
+ }
+
+@media (max-width: 575px) {
+   .imgg-1{
+      display: block;
+   }
+  
+}   
+@media (max-width: 420px) { 
+   .imgg-1{
+      display: block;
+   }
+   .texx-wrap{
+      flex-wrap: wrap;
+   }
+}
